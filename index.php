@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   </head>
   <body>
-  <div class="container text-center fs-3">CONTACT</DIV>
+  <div class="container text-center fs-3">CONTACT</div>
   <div class="container text-center">
   <form action="action.php" method="POST" autocomplete="off">
   <!-- <form class="row G-3  needs-validation" novalidate> -->
@@ -15,7 +15,7 @@
   <div class="col-md-1 id">
     <label for="id">ID</label>
     <input type="text" class="form-control" name="id" id="id" value="" required>
-</DIV>
+</div>
 <div class="col-md-6 fname">
     <label for="fname">First name</label>
     <input type="text" class="form-control" name="fname" id="fname" value="neha" required>
