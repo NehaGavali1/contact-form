@@ -1,11 +1,4 @@
 
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-START TRANSACTION;
-SET time_zone = "+00:00";
-
--- Database: `contact`
-
--- --------------------------------------------------------
 -- Table structure for table `detail`
 --
 
@@ -24,9 +17,7 @@ create table `detail` (
   `moqu` varchar(20) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
---  Dumping data for table `detail`
---
+
 
 insert into `detail` (`id`, `fname`, `lname`, `class`, `divi`, `adde`, `blood`, `dob`, `father`, `faqu`, `mother`, `moqu`) VALUES
 (0, '', '', '', '', '', '', '0000-00-00', '', '', '', ''),
@@ -35,13 +26,8 @@ insert into `detail` (`id`, `fname`, `lname`, `class`, `divi`, `adde`, `blood`, 
 (7, 'mitha', 'lname', 'Third year', 'C', 'oshiwara depot, oshiwara industry, link road, goregaon( w)mumbai 400104.', 'A-', '1998-11-19', 'sandesh', '10th pass', 'meena', 'bachelor'),
 (80, 'RENUKA', 'lname', 'Third year', 'A', '79/87 LAD PATH, HAKOBA MILL COMPOUND ', 'AB-', '0000-00-00', 'SANDESH', '10th ', 'MEENA', '8th');
 
---
--- Indexes for dumped tables
---
 
---
--- Indexes for table `detail`
---
+
 ALTER TABLE `detail`
   ADD PRIMARY KEY (`id`,`fname`),
   ADD UNIQUE KEY `fname` (`fname`);
